@@ -14,4 +14,4 @@ A sleek and modern HTML-based frontpage for a house design website. This project
 
 - **HTML**
 - **CSS**
-- **JavaScript**
+
