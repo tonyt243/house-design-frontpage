@@ -1,0 +1,209 @@
+/* General Guidelines:
+   - Use the provided purple color (#6f5eff) where applicable.
+   - The default font family for HW1 should be Arial, sans-serif.
+*/
+
+/* Typography: */
+/* 
+"House Design" title 
+    font-size: 1.5rem;
+    font-weight: bold;
+"House Styling" title 
+    font-size: 20px;
+Footer section headings: 'Store Info', 'About', 'Account', 'Policy'
+    font-size: 14px;
+Footer content 
+    font-size: 12px;
+For all other text, if not specified above, an approximate font size is acceptable. 
+*/
+
+/* TO-DO */
+#HouseDesign{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+   
+ }
+ .header{
+    background-color:aliceblue;
+    text-align: center;
+    padding: 10px ;
+   
+ }
+
+ 
+ 
+ .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color:transparent;
+    padding: 10px;
+   
+ 
+ 
+ }
+ .menu a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px;
+ }
+ 
+ 
+ .HouseStyling {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+ }
+ .HouseStyling a{
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6f5eff;
+ }
+ 
+ 
+ img{
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+ }
+
+ .content {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 20px;
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 20px;
+}
+
+.options {
+    text-align: center;
+    width: 630px; 
+    background-color: white;
+    border: 1px solid white; 
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px; 
+    justify-content: center;
+}
+.options2 {
+    text-align: center;
+    width: 630px; 
+    background-color: white;
+    border: 1px solid white; 
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px; 
+    justify-content: center;
+}
+
+.options img {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 auto
+}
+.options2 img {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 auto
+}
+
+.options h3 {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 10px 0;
+}
+.options2 h3 {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 10px 0;
+}
+
+.browse {
+    background-color: #6f5eff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+.browse:hover {
+    background-color: grey;
+}
+
+ 
+footer {
+    background-color: whitesmoke;
+    padding: 40px;
+    
+  }
+  
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+  }
+  
+  .footer-column {
+    width: 22%;
+    padding: 20px;
+    
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-column footer-button {
+    list-style: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+  .footer-column div{
+    margin: 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-column  a:hover {
+    text-decoration: underline;
+  }
+  .follow-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6f5eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+ 
