@@ -15,3 +15,10 @@ A sleek and modern HTML-based frontpage for a house design website. This project
 - **HTML**
 - **CSS**
 
+##  How To Run
+
+If you haven’t already, clone the project using Git: 
+git clone https://github.com/tonyt243/House-Design-Frontpage
+
+Locate the index.html file in the project directory and double click to see the project
+
